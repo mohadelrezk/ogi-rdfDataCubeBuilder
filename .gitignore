@@ -10,3 +10,86 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+#my py
+.DS_Store
+*/.DS_Store
+*.bk
+bin/
+ipse files
+*.DS_Store
+*.classpath
+*.project
+*.settings
+*.class
+*.java.bk
+*.zip
+*.*~
+src/main/java/*.class
+bin
+bin/
+
+#test
+src/main/java/eu/opengov/*/test.java
+test.java
+notes.txt
+#logs
+
+
+#data preparation class till doing it
+src/main/java/eu/opengov/cubebuilder/dataservices/DataPreparation.java
+
+#DATASETs
+src/main/resources/data/*.*
+src/main/resources/data
+src/main/resources/data/
+
+*.csv
+
+#libraries
+src/main/resources/lib/*.*
+src/main/resources/lib
+src/main/resources/lib/
+
+
+#output files (cubes/schemas/observations)
+src/main/resources/output/*.*
+src/main/resources/output
+src/main/resources/output/
+
+#tarql queries
+src/main/resources/tarqlQueries/*.*
+src/main/resources/tarqlQueries
+src/main/resources/tarqlQueries/
+
+#tarql
+tarql/*
+/tarql
+tarql/
+tarql
+
+#maven
+target/
+target
+src/test/
+src/test
+
+#other
+output.json
+src/main/resources/*.txt
+*.bk
+src/main/resources/libs.txt
+src/main/resources/queries.txt
+
+lib/
+output/
+data/
+upload
+upload/
+upload/*
+
+.externalToolBuilders/
+test_output/
+*.ttl
+*.csv
+
